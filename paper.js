@@ -29,7 +29,7 @@ class Paper
 			ellipseMode(CENTER)
 			strokeWeight(3);
 			fill(180,100,130)
-			image(this.image,0,-25,this.r-20, this.r-20);
+			image(this.image,0,-25,this.r+20, this.r+20);
 			pop()
 			
 	}
